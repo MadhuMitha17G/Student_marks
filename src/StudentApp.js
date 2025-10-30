@@ -37,7 +37,7 @@ const StudentApp = () => {
     const updated = students.filter((_, i) => i !== index);
     setStudents(updated);
   };
-// webhoobssssgit
+//webjook1
   // Custom Feature 1: Calculate average marks
   const average =
     students.length > 0
