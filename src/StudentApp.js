@@ -37,7 +37,7 @@ const StudentApp = () => {
     const updated = students.filter((_, i) => i !== index);
     setStudents(updated);
   };
-
+// webhoobssssgit
   // Custom Feature 1: Calculate average marks
   const average =
     students.length > 0
@@ -93,6 +93,7 @@ const StudentApp = () => {
                 backgroundColor: Number(s.marks) === topMark ? "#ffe082" : "",
               }}
             >
+
               <td>{s.roll}</td>
               <td>{s.name}</td>
               <td>{s.marks}</td>
